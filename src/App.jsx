@@ -4,11 +4,9 @@ import 'bootstrap/dist/css/bootstrap.min.css';
 import Landing from './pages/Landing';
 import AboutUs from './pages/Aboutus';
 
-const basename = import.meta.env.VITE_PUBLIC_URL || '/';
-
 export default function App() {
   return (
-    <BrowserRouter basename={basename}>
+    <BrowserRouter basename={import.meta.env.BASE_URL}>
       <Routes>
         <Route element={<Landing />} path="/" />
         <Route element={<AboutUs />} path="/AboutUs" />
