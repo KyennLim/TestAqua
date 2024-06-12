@@ -1,7 +1,7 @@
 {
   "name": "aquaprint",
   "version": "0.1.0",
-  "private": true,
+  "private": false,
   "homepage": "https://KyennLim.github.io/TestAqua",
   "dependencies": {
     "bootstrap": "^5.3.3",
