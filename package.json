@@ -1,5 +1,5 @@
 {
-  "homepage": "https//KyennLim.github.io/TestAqua",
+  "homepage": "https://KyennLim.github.io/TestAqua",
   "name": "aquaprint",
   "private": true,
   "version": "0.1.0",
@@ -7,10 +7,11 @@
   "scripts": {
     "dev": "vite",
     "predeploy": "npm run build",
-    "deploy": "gh-pages -d build",
-    "build": "react-scripts build",
+    "deploy": "gh-pages -d dist",
+    "build": "vite build",
+    "preview": "vite preview",
     "test": "react-scripts test",
-    "preview": "vite preview"
+    "eject": "react-scripts eject"
   },
   "dependencies": {
     "bootstrap": "^5.3.3",
