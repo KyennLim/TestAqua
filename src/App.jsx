@@ -1,9 +1,10 @@
-import "bootstrap/dist/css/bootstrap.min.css";
-import { BrowserRouter, Route, Routes } from "react-router-dom";
-import Landing from "./pages/Landing";
-import AboutUs from "./pages/Aboutus";
+import React from 'react';
+import { BrowserRouter, Route, Routes } from 'react-router-dom';
+import 'bootstrap/dist/css/bootstrap.min.css';
+import Landing from './pages/Landing';
+import AboutUs from './pages/Aboutus';
 
-export default function App() { 
+export default function App() {
   return (
     <BrowserRouter>
       <Routes>
