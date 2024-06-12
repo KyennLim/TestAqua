@@ -1,6 +1,6 @@
 {
   "name": "aquaprint",
-  "private": true,
+  "private":false,
   "homepage": "https://kyennlim.github.io/TestAqua",
   "version": "0.1.0",
   "type": "module",
